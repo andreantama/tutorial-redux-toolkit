@@ -81,7 +81,7 @@ intialStateToastData,
 });
 const store = configureStore({
     reducer: {
-      toast: dataToastSlice.reducer
+      toast: dataToastSlice.reducers
     }
   });
 export default store;
@@ -115,7 +115,7 @@ intialStateToastData,
 });
 const store = configureStore({
     reducer: {
-      toast: dataToastSlice.reducer
+      toast: dataToastSlice.reducers
     }
   });
 export const toastAction = dataToastSlice.actions;
